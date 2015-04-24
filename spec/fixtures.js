@@ -25,6 +25,8 @@ var stringifiableObjects = [
   {"a":[],"c": {}, "b": true}
 ];
 
+console.log(JSON.stringify(stringifiableObjects));
+
 // used for stringifyJSON spec
 // hint: JSON does not allow you to stringify functions or
 // undefined values, so you should skip those key/value pairs.
